@@ -1,0 +1,19 @@
+﻿2017/05/26 22:41:06 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\sako\Documents\Visual Studio 2013\Projects\gasyori\iroiro02\iroiro02\iroiro02.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\\inc" /I"C:\Program Files (x86)\OpenRTM-aist\1.1.2\OpenCV2.4.11\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Kinect01.cpp main.cpp opencv01.cpp
+         opencv01.cpp
+         main.cpp
+         Kinect01.cpp
+     1>c:\users\sako\documents\visual studio 2013\projects\gasyori\iroiro02\iroiro02\kinect01.cpp(137): warning C4244: '引数' : 'float' から 'int' への変換です。データが失われる可能性があります。
+         コードを生成中...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\sako\Documents\Visual Studio 2013\Projects\gasyori\iroiro02\Debug\iroiro02.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\\lib\x86" /LIBPATH:"C:\Program Files (x86)\OpenRTM-aist\1.1.2\OpenCV2.4.11\x86\vc12\lib" Kinect20.lib opencv_core2411d.lib opencv_highgui2411d.lib opencv_imgproc2411d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\sako\Documents\Visual Studio 2013\Projects\gasyori\iroiro02\Debug\iroiro02.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\sako\Documents\Visual Studio 2013\Projects\gasyori\iroiro02\Debug\iroiro02.lib" /MACHINE:X86 Debug\Kinect01.obj
+         Debug\main.obj
+         Debug\opencv01.obj
+         iroiro02.vcxproj -> C:\Users\sako\Documents\Visual Studio 2013\Projects\gasyori\iroiro02\Debug\iroiro02.exe
+     1>プロジェクト "C:\Users\sako\Documents\Visual Studio 2013\Projects\gasyori\iroiro02\iroiro02\iroiro02.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:07.64
